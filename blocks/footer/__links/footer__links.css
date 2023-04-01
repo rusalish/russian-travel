@@ -2,7 +2,7 @@
     display: flex;
     list-style-type: none;
     padding: 0;
-    gap: 18px;
+    gap: 1px;
     margin-bottom: 24px;
 }
 
@@ -12,5 +12,6 @@
         flex-direction: column;
         max-width: 186px;
         margin-left: 16px;
+        gap: 32px;
     }
 }

@@ -1,20 +1,21 @@
 .footer__copyright {
     margin: 0;
+    margin-right: 6px;
+    padding-top: 2px;
     font-style: normal;
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.1;
     align-self: center;
-
     color: #fff;
 }
 
 @media screen and (max-width: 767px) {
     .footer__copyright {
         align-self: flex-start;
-        margin-top: 48px;
-        margin-bottom: 24px;
+        padding-top: 48px;
+        padding-bottom: 24px;
         margin-left: 16px;
     }
 }

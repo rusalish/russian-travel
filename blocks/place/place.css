@@ -1,9 +1,8 @@
 .place {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-gap: 48px 40px;
+    grid-template-columns: repeat(auto-fit, minmax(460px, 484px));
+    grid-gap: 48px 16px;
+    margin: 0;
     margin-bottom: 80px;
 }
 
@@ -27,6 +26,7 @@
     .place {
         display: flex;
         flex-direction: column;
-        margin-bottom: 48px;
+        margin-bottom: 50px;
+        grid-gap: 32px;
     }
 }
