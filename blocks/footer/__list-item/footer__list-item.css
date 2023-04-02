@@ -1,3 +1,7 @@
 .footer__list-item {
-    margin: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: normal;
 }
