@@ -8,10 +8,10 @@
     color: #fff;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .footer__copyright {
         align-self: flex-start;
-        margin-top: 48px;
+        margin-top: 23px;
         margin-bottom: 24px;
         margin-left: 16px;
     }

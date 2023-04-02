@@ -6,12 +6,12 @@
     font-style: normal;
     letter-spacing: 1.5px;
     color: #FFF;
-    padding-top: 6px;
+    padding-top: 4px;
     margin: 0;
     align-self: start;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .lead__caption {
         max-width: 928px;
     }
@@ -20,13 +20,20 @@
 @media screen and (max-width: 1023px) {
     .lead__caption {
         max-width: 720px;
-        padding: 0 48px;
+        padding: 0 24px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__caption {
         max-width: 720px;
+        padding: 0 24px;
+        padding-top: 5px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead__caption {
+        max-width: 320px;
         padding: 0 16px;
     }
 }

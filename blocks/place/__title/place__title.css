@@ -4,15 +4,31 @@
     font-size: 72px;
     line-height: 76px;
     max-width: 460px;
-    margin: 0 43px 0 2px;
+    margin: 0;
 
+}
+
+@media screen and (max-width: 1279px) {
+    .place__title {
+        font-size: 72px;
+        line-height: 75px;
+    }
 }
 
 @media screen and (max-width: 1023px) {
     .place__title {
         font-size: 42px;
         line-height: 1.1;
-        max-width: 440px;
+        max-width: 320px;
+    }
+    .place__title:nth-child(1) {
+        max-width: 330px;
+    }
+    .place__title:nth-child(2) {
+    }
+    .place__title:nth-child(3) {
+    }
+    .place__title:nth-child(4) {
     }
 }
 
