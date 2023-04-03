@@ -12,16 +12,16 @@
         grid-gap: 48px 16px;
     }
     .place:first-child{
-        margin-bottom: 63px;
+        margin-bottom: 62px;
     }
     .place:nth-child(2) {
-        margin-bottom: 63px;
+        margin-bottom: 62px;
     }
     .place:nth-child(3) {
-        margin-bottom: 81px;
+        margin-bottom: 80px;
     }
     .place:nth-child(4) {
-        margin-bottom: 81px;
+        margin-bottom: 80px;
     }
 }
 

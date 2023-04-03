@@ -8,13 +8,6 @@
 
 }
 
-@media screen and (max-width: 1279px) {
-    .place__title {
-        font-size: 72px;
-        line-height: 75px;
-    }
-}
-
 @media screen and (max-width: 1023px) {
     .place__title {
         font-size: 42px;
@@ -24,18 +17,11 @@
     .place__title:nth-child(1) {
         max-width: 330px;
     }
-    .place__title:nth-child(2) {
-    }
-    .place__title:nth-child(3) {
-    }
-    .place__title:nth-child(4) {
-    }
 }
 
 @media screen and (max-width: 767px) {
     .place__title {
         font-size: 32px;
-        line-height: 1.1;
         padding-left: 16px;
     }
 }

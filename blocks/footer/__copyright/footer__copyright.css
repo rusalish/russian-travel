@@ -6,12 +6,28 @@
     line-height: 1.1;
     align-self: center;
     color: #fff;
+    margin-bottom: 3px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
+    .footer__copyright {
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
     .footer__copyright {
         align-self: flex-start;
         margin-top: 23px;
+        margin-bottom: 24px;
+        margin-left: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__copyright {
+        align-self: flex-start;
+        margin-top: 47px;
         margin-bottom: 24px;
         margin-left: 16px;
     }
